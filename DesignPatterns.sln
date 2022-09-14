@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{E12BD5EC-2661-4295-9FAD-8A90B33323F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - MundoAnimal", "01 - MundoAnimal", "{6C95DF81-9E4D-4430-8583-53A47F655357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MundoAnimal", "src\MundoAnimal\MundoAnimal.csproj", "{70483B72-A6D6-4E4E-8A39-14094C1B9444}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70483B72-A6D6-4E4E-8A39-14094C1B9444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70483B72-A6D6-4E4E-8A39-14094C1B9444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70483B72-A6D6-4E4E-8A39-14094C1B9444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70483B72-A6D6-4E4E-8A39-14094C1B9444}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C95DF81-9E4D-4430-8583-53A47F655357} = {E12BD5EC-2661-4295-9FAD-8A90B33323F0}
+		{70483B72-A6D6-4E4E-8A39-14094C1B9444} = {6C95DF81-9E4D-4430-8583-53A47F655357}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F755579-B0CF-4065-9BE1-4E3766EF35C8}
+	EndGlobalSection
+EndGlobal
